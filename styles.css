@@ -1,0 +1,292 @@
+@media screen and (max-width:576px) {
+    .download-btn {
+        margin-top: 10px;
+    }
+
+    .prod-img-container {}
+}
+
+@media screen and (max-width:768px) {
+    .navbar div div {
+        border: none !important;
+    }
+
+    .overlay {
+        height: 89% !important;
+    }
+
+    .overlay button {
+        font-size: 70%;
+        margin: 10px 25px !important;
+        padding: 5px !important;
+    }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.offer-promotion-list {
+    list-style-type: none;
+}
+
+.offer-promotion-list li i {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    line-height: 10px;
+    font-size: 75%;
+}
+
+.gradient {
+    background-image: linear-gradient(rgb(207, 207, 207) 50%, rgb(0, 0, 0));
+}
+
+.phonenumber {
+    position: fixed;
+    top: 0;
+    right: 10%;
+    background-color: rgba(0, 132, 255, 0.925);
+    z-index: 5;
+    padding: 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 90%;
+}
+
+.prod-img-container {
+    max-width: 335px;
+    margin: 10px;
+    position: relative;
+    flex-basis: 258px;
+}
+
+.pr .timings {
+    font-size: 80%;
+}
+
+.wembley-logo-img {
+    max-width: 235px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 119, 255, 0.952);
+}
+
+.navbar {
+    background-color: rgb(0, 153, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar div div {
+    border-color: rgba(211, 211, 211, 0.329);
+    border-width: 1px;
+
+}
+
+nav div a {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.center-nav-item-container div {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.banner {
+    background-image: url("images/banner.jpg");
+    min-height: 600px;
+    background-position-x: center;
+    background-size: cover;
+    background-position-y: -2px;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.m-50 {
+    margin-bottom: 50px;
+}
+
+.overlay-txt {
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.452);
+}
+
+.light {
+    background-color: rgb(201, 201, 201);
+    color: black;
+}
+
+#keysuppliers div img {
+    max-width: 250px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.celebrate-logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+#achievement-section {
+    background-image: url("images/footer-banner.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-position-y: 2px;
+}
+
+.download-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    top: 10;
+    right: 0;
+    z-index: 5;
+    display: none;
+
+}
+
+.overlay button {
+    margin: 10px;
+    padding: 5px;
+}
+
+.overlay button:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.business-detail {
+    padding: 25px;
+}
+
+#download button {
+    font-size: 75%;
+}
+
+address {
+    font-size: 87%;
+}
+
+.heading:before {
+    content: "";
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heading ul {
+    background-color: blue;
+}
